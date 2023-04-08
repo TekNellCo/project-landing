@@ -2,6 +2,7 @@
 body{
     display: flex;
     flex-direction: column;
+
    
 }
 .header{
@@ -52,4 +53,62 @@ ul{
 .main-img{
     width:500px;
     border: 2px solid #f2f2f2;
+}
+
+
+.two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 200px;
+    background-color: #393e46;
+    color:#f96d00;
+}
+.two-one{
+    font-size: 50px;
+}
+.two-two{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    text-align: center;
+    padding-top: 50px;
+}
+.thumb{
+    width: 250px;
+    height: auto;
+    border-radius: 5%;
+}
+.three{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:500px;
+    background-color: #232323;
+    color:#f96d00;
+
+
+}
+.quote{
+    font-size: 40px;
+    text-align: center;
+    width: 1200px;
+
+
+}
+.sig{
+    display: flex;
+
+    align-self: center;
+    width: 1200px;
+    font-size: 40px;
+    justify-content: flex-end;
+    margin-right: 300px;
+    margin-top: 0px;
+    font-weight: 700;
 }
