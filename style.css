@@ -1,4 +1,8 @@
-
+html body{
+    border: 0px;
+    margin: 0%;
+    padding: 0%;
+}
 body{
     display: flex;
     flex-direction: column;
@@ -27,7 +31,7 @@ ul{
     flex-direction:row;
     justify-content: center;
     gap:200px;
-    background-color: #222831;
+    background-color: #232323;
     
     padding-top: 100px;
     padding-bottom: 100px;
@@ -89,7 +93,7 @@ ul{
     justify-content: center;
     align-items: center;
     height:500px;
-    background-color: #232323;
+    background-color: #222831;
     color:#f96d00;
 
 
@@ -111,4 +115,46 @@ ul{
     margin-right: 300px;
     margin-top: 0px;
     font-weight: 700;
+}
+.four{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-color: #393e46;
+    
+    
+}
+.four-box{
+    display: flex;
+    
+    height: 40%;
+    width: 40%;
+    justify-content: center;
+    align-items:center;
+    gap:20%;
+    background-color: #232323;
+
+}
+.four-one{
+   
+    color:#f96d00;
+    font-size:30px;
+}
+.heading{
+    font-weight:800px;
+    color:#f96d00;
+    font-weight: 700;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    color: #f96d00;
+    height: 75px;
+
+    flex-shrink: 0;
+    background-color: #222831;
+    align-items: center;
+    font-size: 15px;
+
 }
