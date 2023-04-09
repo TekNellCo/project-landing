@@ -6,6 +6,10 @@ html body{
 body{
     display: flex;
     flex-direction: column;
+    background-image: url(images/pexels-josh-hild-2448749.jpg);
+    background-size: 100%;
+    background-repeat: repeat;
+
 
    
 }
@@ -16,6 +20,7 @@ body{
     background-color: #222831;
     align-items: center;
     color: #f96d00;
+ 
 }
 .header div{
     font-size: 30px;
@@ -32,9 +37,9 @@ ul{
     justify-content: center;
     gap:200px;
     background-color: #232323;
-    
     padding-top: 100px;
     padding-bottom: 100px;
+ 
 }
 .one-one{
  display: flex;
@@ -68,7 +73,7 @@ ul{
     padding: 50px;
     padding-top: 50px;
     padding-bottom: 200px;
-    background-color: #393e46;
+
     color:#f96d00;
 }
 .two-one{
@@ -95,6 +100,9 @@ ul{
     height:500px;
     background-color: #222831;
     color:#f96d00;
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 5%;
 
 
 }
@@ -121,7 +129,7 @@ ul{
     justify-content: center;
     align-items: center;
     height: 500px;
-    background-color: #393e46;
+    
     
     
 }
